@@ -77,6 +77,12 @@ In addition to looking for the best and most convenient fares, customers tend to
 ![CleanlinessRating](https://user-images.githubusercontent.com/19572673/62090876-7c051300-b23c-11e9-9bdb-57aa42d471e3.PNG)
 ![airlines_dashboard](https://user-images.githubusercontent.com/19572673/62089884-c08eaf80-b238-11e9-8113-083115c46fc0.PNG)
 
+Summary:
+
+The bottom-line goal is to figure out why certain airports have lower cleanliness ratings than others. Up on the User Interface, there is a 'Flight Time', 'Survey Date', 'Departure Date', 'Aircraft Delivery Date', and 'Date Diff' slicer to which the user can select the appropriate time frame. To drill down, there is a 'Origin' & 'Destination' & 'Overnight_Airport' slicer which location of airport.
+
+When the end-user clicks on one of the options, the entire dashboard/UI drills down further to get into the point of interest, including the 'Stacked-Column-Chart', 'Scatter Chart', and a 'drill-through data table'. The 'Stacked-Column-Chart provides an ordinal structure of the highest average ratings (Overnight Airport) to the lowest. The color schemes 'green', 'yellow', and 'red' are displayed as well. The 'Scatter-Plot' provides the average ratings (Overnight Airport) vs. its volume. The color schemes 'green', 'yellow', and 'red' are displayed as well (by avg. rating). 'The drill-through data table' fixes itself once the user clicks on a point of interest. So from a simple 'business' perspective, the problem solving process to work on the highest volume overnight airport with the lowest avg rating would make the most sense to improve customer satisfaction. 
+
 ## Part 2 Analysis
 
 #### Which airports are the best at cleaning aircraft?
