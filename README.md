@@ -77,7 +77,7 @@ In addition to looking for the best and most convenient fares, customers tend to
 ![CleanlinessRating](https://user-images.githubusercontent.com/19572673/62090876-7c051300-b23c-11e9-9bdb-57aa42d471e3.PNG)
 ![airlines_dashboard](https://user-images.githubusercontent.com/19572673/62089884-c08eaf80-b238-11e9-8113-083115c46fc0.PNG)
 
-Summary:
+## Summary:
 
 The bottom-line goal is to figure out why certain airports have lower cleanliness ratings than others. Up on the User Interface, there is a 'Flight Time', 'Survey Date', 'Departure Date', 'Aircraft Delivery Date', and 'Date Diff' slicer to which the user can select the appropriate time frame. To drill down, there is a 'Origin' & 'Destination' & 'Overnight_Airport' slicer which location of airport.
 
