@@ -1,4 +1,9 @@
 # Airline_Guest_Satisfaction_Analysis
+
+## Abstract:
+Every day, there are tens of thousands of people who fly across the country and the world, whether it is work-related or for a vacation.
+In addition to looking for the best and most convenient fares, customers tend to focus on their airline experience which plays a big part in customer satisfaction. In the Airline Guest Satisfaction Analysis, I look to determine the key drivers from guest satisfaction surveys that translates to a particular customer recommending Airline X. Furthermore, in the analysis, the following questions arise. How much do cleanliness ratings play a part in the overall customer satisfaction?  Which airports are the best at cleaning aircraft? Which airports are the worst? What are factors causing cleanliness ratings to be low in certain airports? Is it overnight stay? What major steps can Airline X take in the airports with the worst cleanliness ratings? All of these questions/problems are being analyzed below.
+
 ## Use Case(s):
 ### Determine the key drivers for likelihood to recommend Airline X
 ### Which airports are the best at cleaning aircraft?
