@@ -6,46 +6,46 @@
 Every day, there are tens of thousands of people who fly across the country and the world, whether it is work-related or for a vacation.
 In addition to looking for the best and most convenient fares, customers tend to focus on their airline experience which plays a big part in customer satisfaction. In the Airline Guest Satisfaction Analysis, I look to determine the key drivers from guest satisfaction surveys that translates to a particular customer recommending Airline X. Furthermore, in the analysis, the following questions arise. How much do cleanliness ratings play a part in the overall customer satisfaction?  Which airports are the best at cleaning aircraft? Which airports are the worst? What are factors causing cleanliness ratings to be low in certain airports? Is it overnight stay? What major steps can Airline X take in the airports with the worst cleanliness ratings? All of these questions/problems are being analyzed below.
 ## Industry:
-### Airlines/Aviation/Travel & Leisure
+Airlines/Aviation/Travel & Leisure
 
 ## Use Case(s):
-### Determine the key drivers for likelihood to recommend Airline X
-### Which airports are the best at cleaning aircraft?
-### Do certain airports impact the aircraft cleanliness ratings more than others?
-### What other factors could drive the cleanliness ratings to be low?
+Determine the key drivers for likelihood to recommend Airline X
+Which airports are the best at cleaning aircraft?
+Do certain airports impact the aircraft cleanliness ratings more than others?
+What other factors could drive the cleanliness ratings to be low?
 
 ## Initial Dataset(s):
 ## Part 1
-### Guest_Satisfaction_Survey_Data.csv 
+Guest_Satisfaction_Survey_Data.csv 
 
 ## Part 2
-### Surveys.csv
-### Tail_Number_Data.csv
-### Overnight_Station_Data.csv
-### Airport_Delivery_Dates.csv
+Surveys.csv
+Tail_Number_Data.csv
+Overnight_Station_Data.csv
+Airport_Delivery_Dates.csv
 
 ## Resulting Dataset(s) - Part 2:
-### After transforming/merging data via Surveys.csv, Tail_Number_Data.csv, Overnight_Station_Data.csv, Airport_Delivery_Dates.csv:
-### Test.csv is final output dataset which is then visualized in PowerBI. 
+After transforming/merging data via Surveys.csv, Tail_Number_Data.csv, Overnight_Station_Data.csv, Airport_Delivery_Dates.csv:
+Test.csv is final output dataset which is then visualized in PowerBI. 
 
 ## Software:
-### PowerBI, R (ggplot2), Excel
+PowerBI, R (ggplot2), Excel
 
 ## Techniques:
-### RandomForest
+RandomForest
 
 ## Basic Steps (Part 1):
-##### Understand the process: Guest Satisfaction Survey Key Factors
-##### Understand the airlines industry.
-##### Understand/frame the business problem.
-##### Explore the data & potential key factors with key business question in mind.
-##### Look at all levels of the variables.
-##### Transform all 'ordinal' columns into 'numerical columns'
-##### Run histograms on transformed columns to see/understand data patterns.
-##### Treat missing values by deleting columns that contained > 77% null values
-##### Train/validate a Random Forest Regression Model
-##### Look at the Variable Importance Plot in R for variable selection to predict the response variable Q1.
-##### Upon that, select the top/three factors that best explain the response variable
+Understand the process: Guest Satisfaction Survey Key Factors
+Understand the airlines industry.
+Understand/frame the business problem.
+Explore the data & potential key factors with key business question in mind.
+Look at all levels of the variables.
+Transform all 'ordinal' columns into 'numerical columns'
+Run histograms on transformed columns to see/understand data patterns.
+Treat missing values by deleting columns that contained > 77% null values
+Train/validate a Random Forest Regression Model
+Look at the Variable Importance Plot in R for variable selection to predict the response variable Q1.
+Upon that, select the top/three factors that best explain the response variable
 
 ## Part 1
 ![Q120](https://user-images.githubusercontent.com/19572673/62090877-7c9da980-b23c-11e9-830e-97b928ba22a0.PNG)
@@ -57,12 +57,12 @@ In addition to looking for the best and most convenient fares, customers tend to
 
 ## Part 1 Analysis
 
-##### Random Forest Results – Key Drivers Interpretation
-##### Potential Key Drivers: Q127 and Q120
-##### Explain roughly 67.68% of the response variable ‘Q1’ among the training data set.
-##### Then predict/validate on the test data set, Adjusted R-square = 0.6896.
-##### Fairly consistent measures on both training/test set
-##### Overall Goal: Find least number of key factors that explain highest variance of the response variable to avoid multicollinearity
+Random Forest Results – Key Drivers Interpretation
+Potential Key Drivers: Q127 and Q120
+Explain roughly 67.68% of the response variable ‘Q1’ among the training data set.
+Then predict/validate on the test data set, Adjusted R-square = 0.6896.
+Fairly consistent measures on both training/test set
+Overall Goal: Find least number of key factors that explain highest variance of the response variable to avoid multicollinearity
 
 ## Basic Steps (Part 2):
 ##### 1. Copy paste Excel Test file into individual CSV Files and import them into R. Do basic data exploration.
