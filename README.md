@@ -89,6 +89,16 @@ Fairly consistent measures on both training/test set
 
 Overall Goal: Find least number of key factors that explain highest variance of the response variable to avoid multicollinearity
 
+### Communication of Results to Business Partner:
+To a business partner, I would explain that the Random Forest (all else equal) would work better for complex data (high variance, low bias) that’s a bit more unknown in terms of predictors’ effect on the response variable since it looks at all predictor variables equally in terms of its importance.
+
+### Future Work:
+Continue to do hyperparameter tuning of the model and creating new features/removing old features to help increase the prediction accuracy of the model
+
+Try other types of models to see if the accuracy rate improves
+
+More data visualization/patterns within the dataset (external sources) that can lead to more insights and decision-making from a business perspective
+
 ### Basic Steps (Part 2):
 1. Copy paste Excel Test file into individual CSV Files and import them into R. Do basic data exploration.
 
